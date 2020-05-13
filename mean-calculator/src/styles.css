@@ -1,1 +1,104 @@
-/* You can add global styles to this file, and also import other style files */
+body
+{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background: url('/assets/calculator.jpg') no-repeat;
+background-size: cover;
+}
+
+.result-box{
+  border-radius: 20px;
+  background: rgba(0,0,0,0.7);
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.dropdown-window{
+  padding-left: 10%;
+  margin-top: 10px;
+}
+
+.dropdown-window-btn{
+  background-color: #6edbb5;
+  border-radius: 10px;
+}
+
+.form-box{
+  border-radius: 20px;
+  background: rgba(0,0,0,0.7);
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.form-box h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.textbox {
+  width: 80%;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 10%;
+  margin-bottom: -10px;
+
+}
+.textbox input {
+  text-align: center;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid;
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid #FFFF;
+  color: white;
+  padding: 5;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  border-radius: 10px;
+}
+.btn:hover{
+  background: #6edbb5;
+}
+.btn:active {
+  box-shadow: 0 4px 0 #00823F;
+  top: 3px;
+  bottom: -5px;
+  ;
+}
+
+.removeBtn{
+  background-color: ghostwhite;
+  border-radius: 5%;
+  border: black;
+  width: 20px;
+  height: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.removeBtn:hover{
+  background-color: red;
+  border-radius: 5%;
+  border: black;
+}
+
+.radio-text{
+  text-align: center;
+}
